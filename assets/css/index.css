@@ -16,12 +16,17 @@ body{
     height: 100vh;
 }
 
+#nama-tamu{
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+
 .linniel_cover{
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.750)),
-                url('/assets/bg/bg1.jpg') no-repeat center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../bg/bg1.jpg');
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-    display: flex;
     display: flex;
     flex-direction: column;
     color: white;
