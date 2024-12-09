@@ -159,6 +159,20 @@ body {
     width: 100%;
     height: auto;
 }
+
+.svg2-2 {
+    width: 100%;
+    overflow: hidden; 
+    position: absolute;
+    bottom: 0;
+}
+.svg3{
+    position: absolute;
+    bottom: 0; /* Letakkan di bagian bawah container */
+    left: 0;
+    width: 100%; /* Pastikan lebar SVG memenuhi container */
+}
+
 .linniel_3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../bg/bg.jpg');
     background-position: center;
@@ -230,6 +244,7 @@ p{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .gallery-item img{
     height: 260px;

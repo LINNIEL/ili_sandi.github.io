@@ -11,6 +11,6 @@ window.addEventListener("load", function() {
         setTimeout(function() {
             loading.style.display = "none";
             content.style.display = "block";
-        }, 500); 
-    }, 3000); 
+        }, 5000); 
+    }, 5000); 
   });
