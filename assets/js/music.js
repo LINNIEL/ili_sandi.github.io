@@ -30,3 +30,4 @@ window.addEventListener('load', () => {
     // Browser mungkin memerlukan interaksi pengguna untuk memutar musik
     playMusic();
 });
+

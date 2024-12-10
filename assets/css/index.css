@@ -33,7 +33,8 @@ body{
 }
 .card{
     background-color: rgba(247, 247, 247, 0);
-    bottom: 5%;
+    bottom: 0;
+    margin-bottom: 50px;
     border: none;
     color: white;
     font-size: 12px;

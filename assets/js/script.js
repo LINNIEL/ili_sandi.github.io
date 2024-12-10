@@ -37,3 +37,4 @@ window.addEventListener('load', () => {
 
 // Initial background change (this will happen once the page has fully loaded)
 changeBackgroundImage();
+

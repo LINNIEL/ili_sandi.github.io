@@ -12,6 +12,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    font-family: "Roboto", serif;
 }
 
 .mobile_container {
@@ -123,7 +124,8 @@ body {
     z-index: 20;
 }
 .nama{
-    font-size: 24px;
+    font-size: 34px;
+    font-family: "Great Vibes", serif;
 }
 .hr_custom{
     border: solid 2px white;
@@ -187,6 +189,7 @@ p{
 }
 .wrapper{
     background-color: #ffffff1f;
+    font-size: 12px;
     padding: 10px;
     width: 75%;
     height: 75vh;
@@ -198,7 +201,7 @@ p{
 .bunga4_2{
     width: 260px;
     position: absolute;
-    bottom: 0;
+    bottom: 3%;
     left: 30%;
     z-index: 10;
     filter: drop-shadow(0 2px 4px black);
@@ -207,7 +210,7 @@ p{
 .jadwal_1{
     width: 220px;
     padding-top: 20%;
-    filter: drop-shadow(0px 4px 4px white);
+    filter: drop-shadow(0px 4px 4px rgb(0, 0, 0));
     opacity: 100;
     z-index: 100;
 }
@@ -259,10 +262,19 @@ p{
     box-shadow: 2px 4px 4px black;
 }
 .linniel_6{
-    background-color: #000c76;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../bg/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+.svg4{
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 .nama_img_2{
     width: 180px;
@@ -270,6 +282,7 @@ p{
 }
 .thanks_img{
     width: 320px;
+    margin-top: 50px;
     filter: drop-shadow(0 10px 30px rgb(255, 255, 255));
 }
 .footer{
@@ -277,6 +290,13 @@ p{
     color: rgb(0, 0, 0);
     font-size: 10px;
   }
+.btn{
+    font-size: 12px;
+}
+.btext, .rtext{
+    font-size: 14px;
+    font-weight: bold;
+}
 
 
 
@@ -290,7 +310,18 @@ p{
     right: 15%;
    }
    .bunga4{
-    width: 280px;
+    width: 240px;
+    }
+    .bunga4_2{
+        width: 200px;
+        bottom: -5%;
+    }
+    .btext, .rtext{
+        font-size: 14px;
+    }
+    .hitungan-mundur{
+        z-index: 1000;
+        position: relative;
     }
    .pria, .wanita{
     width: 150px;
@@ -309,6 +340,30 @@ p{
         width: 140px;
         border-radius: 10px;
         box-shadow: 2px 4px 4px black;
+    }
+    .nama_img{
+        width: 160px;
+    }
+    .kutipan{
+        font-size: 12px;
+        width: 98%;
+    }
+    .jadwal_1{
+        width: 160px;
+    }
+    .linniel_3{
+        height: 120vh;
+    }
+    .wrapper{
+        line-height: 0.5;
+        width: 75%;
+        height: 90vh;
+    }
+    .nama_img_2{
+        width: 140px;
+    }
+    .thanks_img{
+        width: 220px;
     }
     
   }
